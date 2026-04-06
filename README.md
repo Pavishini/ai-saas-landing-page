@@ -74,7 +74,7 @@ This project is deployed using **Vercel** for fast and reliable hosting.
 To run this project locally:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-saas-landing-page.git
+git clone https://github.com/Pavishini/ai-saas-landing-page.git
 cd ai-saas-landing-page
 open index.html
 ```
