@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.container{
+    max-width:1533px;
+}
+header{
+    width: 1533px;
+    height: 70px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+.logo{
+    width:30px;
+    height:30px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.company-name{
+    display: flex;
+}
+.company{
+    font-family:sans-serif;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.navbar a{
+    margin-left: 32px;
+    font-size: 16px;
+    font-family:sans-serif;
+    color:#4B5563;
+    font-weight: 500;
+}
+.sign-in{
+    margin-left: 600px;
+    font-size: 16px;
+    font-family:sans-serif; 
+    color:#4B5563;
+    padding: 8px 24px; 
+}
+.login{
+    margin-left: 15px;
+    background-color: #6366F1;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: white;
+}
+.quote{
+    font-family:sans-serif;
+    padding-left: 150px;
+    padding-top: 100px;
+    margin:0px 10px 20px 0px;
+}
+.quote p:first-child{
+    width:590px;
+    height: 180px;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.quote p:last-child{
+    width:590px;
+    height:97px;
+    font-size: 20px;
+    color:#4B5563;
+    line-height: 33px;
+}
+.ai{
+    color:#6366F1;
+}
+.buttons button{
+    font-family:sans-serif;
+    font-size: 18px;
+    padding:14px 32px;
+    width:215px;
+    height:60px;
+ 
+}
+.button-1{
+    margin-left: 150px;
+    background-color: #6366F1;
+    border-radius: 10px;
+    border-color: #6366F1;
+    color:white;
+    display: flex;
+
+}
+.button-2{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #8d8e91;
+    display: flex;
+    
+}
+.home{
+    display:flex;
+    width:1533px;
+    height:600px;
+}
+
+.front-img{
+    width:448px;
+    height:320px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.play{
+    width:30px;
+    height:30px;
+    margin-top: 0px;
+
+}
+.watch{
+    margin-top: 5px;
+}
+.start{
+    display:flex;
+    margin-top: 5px;
+}
+.buttons{
+    display: flex;
+}
+.features{
+    background-color: #FFFFFF;
+}
+.heading{
+    font-size:36px;
+    margin:50px 0px 10px 600px;
+    font-weight: 700;
+}
+.description{
+    font-size: 20px;
+    width:600px;
+    height:52px;
+    margin-left: 500px;
+    margin-top: 15px;
+    color:#4B5563;
+}
+.description p:last-child{
+    margin-left: 230px;
+}
+.grid-features{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:50% 50%;
+    width:1500px;
+    height:600px;
+    padding:20px;
+    margin:40px;
+}
+.pic{
+    width:48px;
+    height:48px;
+    margin: 30px;
+}
+.box{
+    border:#dfe2e7 solid 1px;
+    margin:30px;
+    width: 391px;
+    height: 253px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 20px;
+    margin: 16px;
+    font-weight: 600;
+    margin-left: 27px;
+}
+.para{
+    font-size: 16px;
+    width: 325px;
+    height: 72px;
+    color: #a4a5a5;
+    margin-left:27px;
+}
+.box:hover{
+    box-shadow: 4px 3px 3px 3px rgb(75, 85, 99,0.1);
+}
+.reviews{
+    width:1533px;
+    height:600px;
+}
+.review-grid{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:30%;
+    width: 1300px;
+    height:500px;
+    margin-left: 100px;
+}
+.title-1{
+    font-size: 36px;
+    margin-left: 550px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.title-2{
+    font-size: 20px;
+    color:#4B5563;
+    margin-left: 478px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rev{
+    margin:50px;
+    border: solid 1px #d7d8d8;
+    border-radius: 20px;
+    width:355px;
+    height: 270px;
+    padding: 32px;
+    background-color: white;
+}
+.text{
+    font-size: 16px;
+    width:262px;
+    height: 96px;
+    color:#4B5563;
+}
+.stars{
+    width:100px;
+    height:25px;
+    margin: 10px 10px 10px 0px;
+}
+.profile{
+    width:48px;
+    height:48px;
+    border-radius:50px;
+}
+.pro{
+    display: flex;
+}
+.details{
+    margin-left: 10px;
+}
+.details p:first-child{
+    font-size: 16px;
+    color:black;
+}
+.details p:last-child{
+    font-size:14px;
+    color:#4B5563;
+}
